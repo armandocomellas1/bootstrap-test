@@ -1,4 +1,30 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@100;400&display=swap');
+
+.section_head {
+  background-color: #1C1A19;
+}
+
+.section_head h1 {
+  width: 20%;
+  height: 160px;
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-size: 55px;
+  color: #f55800;
+}
+
+.section_head h2 {
+  width: 566px;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: #FFFFFF;
 }
