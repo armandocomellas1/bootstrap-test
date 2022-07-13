@@ -4,27 +4,60 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100&family=Roboto:wght@100;400&display=swap');
 
 .section_head {
-  background-color: #1C1A19;
+  background-color: #1c1a19;
+  height: 747px;
 }
 
-.section_head h1 {
+.section_head .images {
+  height: 100%;
+}
+
+.section_head .images > img {
+  width: 15px;
+  margin: 10px 35px;
+}
+
+.section_head .haed_article h1 {
   width: 20%;
-  height: 160px;
+  height: 130px;
   font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 55px;
   color: #f55800;
+  margin-bottom: 10px;
 }
 
-.section_head h2 {
-  width: 566px;
-  height: 24px;
-  font-family: 'Inter';
+.section_head .haed_article h2 {
+  width: 40%;
+  height: 40px;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
-  line-height: 44px;
-  color: #FFFFFF;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.section_head .haed_article {
+  height: 100%;
+}
+
+.section_head .haed_article p {
+  width: 30%;
+  height: 143px;
+  font-family: 'Inter', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 32px;
+  color: #f4f5f7;
+  margin-bottom: 0;
+}
+
+.section_head .svg_img {
+  background-image: url(./img/Illustration-header.svg);
+  background-repeat: no-repeat, repeat;
+  background-position: right;
 }
