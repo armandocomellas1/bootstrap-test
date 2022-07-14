@@ -264,7 +264,7 @@ hr {
   .section_head .haed_article h2 {
     width: 530px;
     height: 40px;
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .section_head .haed_article p {
@@ -336,9 +336,5 @@ hr {
   .section_head .haed_article h1 .two_title {
     width: 100%;
     font-size: 35px;
-  }
-
-  .section_head .haed_article h2 {
-    font-size: 18px;
   }
 }
