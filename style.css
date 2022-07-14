@@ -224,7 +224,6 @@ hr {
 }
 
 @media (max-width: 576px) {
-
   .section_head .haed_article {
     width: 200px;
     font-size: 35px;
@@ -235,5 +234,17 @@ hr {
     width: 200px;
     font-size: 35px;
     margin-top: 10px;
+  }
+
+  .section_head .haed_article h2 {
+    width: 530px;
+    height: 40px;
+    font-size: 22px;
+  }
+
+  .section_head .haed_article p {
+    width: 100%;
+    height: 143px;
+    font-size: 15px;
   }
 }
