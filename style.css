@@ -32,9 +32,17 @@ hr {
   margin: 10px 35px;
 }
 
-.section_head .haed_article h1 {
-  width: 330px;
-  height: 130px;
+.section_head .haed_article h1 .one_title {
+  width: 100%;
+  font-family: 'Crete Round', serif;
+  font-weight: 550;
+  font-size: 55px;
+  color: #f55800;
+  margin-bottom: 10px;
+}
+
+.section_head .haed_article h1 .two_title {
+  width: 100%;
   font-family: 'Crete Round', serif;
   font-weight: 550;
   font-size: 55px;
@@ -246,5 +254,11 @@ hr {
     width: 100%;
     height: 143px;
     font-size: 15px;
+  }
+
+  .section_head .svg_img {
+    background-image: url(./img/Illustration-header.svg);
+    background-repeat: no-repeat, repeat;
+    background-position: bottom right;
   }
 }
