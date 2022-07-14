@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Portfolio</title>
 </head>
-<body data-bs-spy="scroll" data-bs-target="#page-navbar" data-bs-offset="0" tabindex="0" class="container-fluid">
+<body data-bs-spy="scroll" data-bs-target="#page-navbar" data-bs-offset="0" tabindex="0" class="container-fluid m-0 p-0">
   <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark ">
     <div class="container-fluid justify-content-end" id="page-navbar">
       <a class="navbar-brand justify-content-start" href="/index.html" aria-label="Home">John Doe</a>
@@ -37,17 +37,8 @@
         </div>
     </div>
   </nav>
-  <section class="row section_head">
-    <div class="col-1">
-      <div class="images d-flex flex-column justify-content-center">
-        <img src="img/Vector.png" alt="GitHub">
-        <img src="img/dos.png" alt="LinkedIn">
-        <img src="img/tres.png" alt="Angelist">
-        <img src="img/instagram.png" alt="Instagram">
-        <img src="img/cuatro.png" alt="Medium">
-      </div>
-    </div>
-    <div class="col-11 svg_img">
+  <section class="d-flex flex-column flex-md-row-reverse p-0 m-0 section_head flex-nowrap justify-content-around">
+    <div class="col-12 col-md-11 svg_img">
       <div class="haed_article d-flex flex-column justify-content-center">
         <h1 class="d-flex flex-column align-items-center">
           <span class="one_title align-middle">Hey There.</span>
@@ -58,14 +49,23 @@
           don't hestiate to contact me.</p>
       </div>
     </div>
+    <div class="col-12 col-md-1 ">
+      <div class="images d-flex flex-row flex-md-column justify-content-start justify-content-md-center align-items-center">
+        <img src="img/Vector.png" alt="GitHub">
+        <img src="img/dos.png" alt="LinkedIn">
+        <img src="img/tres.png" alt="Angelist">
+        <img src="img/instagram.png" alt="Instagram">
+        <img src="img/cuatro.png" alt="Medium">
+      </div>
+    </div>
   </section>
-  <section class="row section_work">
-      <div class="col-1"></div>
-      <div class="col-10">
+  <section class="container-fluid row section_work">
+    <div class="col-1"></div>
+    <div class="col-10">
         <div id="Portfolio">
         <div class="row mt-5 col-12 align-items-center">
           <p class="col-2">My Recent Works</p>
-          <hr class="col-8">
+          <hr class="col-10">
         </div>
         <div class="row mt-5">
           <div class="container col-10 col-md-6 bg-image" id="bg-project1">
@@ -214,9 +214,9 @@
             </div>
           </div>
         </div>
-      </div>
+    </div>
     <div class="col-1"></div>
-</section>
+  </section>
   <div id="about" class="container-fluid p-0">
     <section class="row section_about">
       <div class="col-1"></div>
@@ -229,46 +229,48 @@
     </section>
     <section class="row section_tools">
       <div class="col-1"></div>
-      <div class="col-2 d-flex flex-column">
-        <h3 class="diamond text-white">Language</h3>
-        <a class="one" href="">Javascript</a>
-        <a href="">Ruby</a>
-        <a href="">Html</a>
-        <a href="">Css</a>
-      </div>
-      <div class="col-6 d-flex flex-column align-items-center">
-        <!-- <h3 class="diamond text-white"></h3> -->
-        <div class="d-flex flex-column">
-          <h3 class="diamond text-white">Frameworks</h3>
-          <a href="">Bootstrap</a>
-          <a href="">Ruby on Rails</a>
-          <a href="">RSPec</a>
-          <a href="">CapyBara</a>
-          <a href="">Selenium</a>
+      <div class="col-10 d-flex flex-md-row flex-column">
+        <div class="col-md-2 d-flex flex-column">
+          <h3 class="diamond text-white">Language</h3>
+          <a class="one" href="">Javascript</a>
+          <a href="">Ruby</a>
+          <a href="">Html</a>
+          <a href="">Css</a>
         </div>
-      </div>
-      <div class="col-2 d-flex flex-column align-items-start">
-        <div class="d-flex flex-column">
-        <h3 class="diamond text-white">Skills</h3>
-          <a href="">Codekit</a>
-          <a href="">Github</a>
-          <a href="">Codepen</a>
-          <a href="">Gitlab</a>
-          <a href="">Terminal</a>
+        <div class="col-md-6 d-flex flex-column align-items-center">
+          <!-- <h3 class="diamond text-white"></h3> -->
+          <div class="d-flex flex-column">
+            <h3 class="diamond text-white">Frameworks</h3>
+            <a href="">Bootstrap</a>
+            <a href="">Ruby on Rails</a>
+            <a href="">RSPec</a>
+            <a href="">CapyBara</a>
+            <a href="">Selenium</a>
+          </div>
+        </div>
+        <div class="col-md-2 d-flex flex-column align-items-start">
+          <div class="d-flex flex-column">
+          <h3 class="diamond text-white">Skills</h3>
+            <a href="">Codekit</a>
+            <a href="">Github</a>
+            <a href="">Codepen</a>
+            <a href="">Gitlab</a>
+            <a href="">Terminal</a>
+          </div>
         </div>
       </div>
       <div class="col-1"></div>
     </section>
   </div>
-    <div id="contact" class="container-fluid p-0">
+    <div id="contact" class="container-fluid p-0 m-0">
       <section class="row section_form">
         <div class="col-1"></div>
-        <div class="col-10 flex_form d-flex">
-          <h3>
+        <div class="col-10 flex_form d-flex flex-column flex-nowrap flex-md-row justify-content-between">
+          <h3 class="col-10 col-md-5">
             I'm always interested in hearing about new projects, so if you'd like
             to chat please get in touch.
           </h3>
-          <form action="https://formspree.io/f/moqrojze" method="POST" class="formstyle">
+          <form action="https://formspree.io/f/moqrojze" method="POST" class="formstyle m-0">
             <label for="first_name">First Name</label>
             <input id="first_name" type="text" placeholder="First Name" maxlength="30" required>
             <label for="last_name">Last Name</label>
