@@ -2,3 +2,339 @@
   margin: 0;
   padding: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100&family=Roboto:wght@100;400&display=swap');
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+#bg-project1 {
+  background-image: url(./img/files/bg-project1.svg);
+  height: 400px;
+  background-size: 100% 100%;
+}
+
+hr {
+  height: 2px;
+  background-color: #000;
+  border: none;
+}
+
+.section_head {
+  background-color: #1c1a19;
+  height: 1000px;
+}
+
+.section_head .images {
+  height: 100%;
+}
+
+.section_head .images > img {
+  width: 15px;
+  margin: 10px 20px;
+}
+
+.section_head .haed_article h1 .one_title {
+  width: 100%;
+  font-family: 'Crete Round', serif;
+  font-weight: 550;
+  font-size: 55px;
+  color: #f55800;
+  margin-bottom: 10px;
+}
+
+.section_head .haed_article h1 .two_title {
+  width: 100%;
+  font-family: 'Crete Round', serif;
+  font-weight: 550;
+  font-size: 55px;
+  color: #f55800;
+  margin-bottom: 10px;
+}
+
+.section_head .haed_article h2 {
+  width: 530px;
+  height: 40px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.section_head .haed_article {
+  height: 100%;
+}
+
+.section_head .haed_article p {
+  width: 30%;
+  height: 143px;
+  font-family: 'Inter', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 32px;
+  color: #f4f5f7;
+  margin-bottom: 0;
+}
+
+.section_head .svg_img {
+  background-image: url(./img/Illustration-header.svg);
+  background-repeat: no-repeat, repeat;
+  background-position: right;
+  background-size: 55%;
+}
+
+.section_about {
+  background-color: #1c1a19;
+  height: 50%;
+}
+
+.section_about .about_me {
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 550;
+  font-size: 60px;
+  color: #f55800;
+  margin-bottom: 15px;
+  margin-top: 100px;
+}
+
+.section_about .description {
+  width: 30%;
+  font-family: 'Inter', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 32px;
+  color: #f4f5f7;
+  margin-bottom: 40px;
+}
+
+.section_about .resume {
+  padding: 12px;
+  width: 9%;
+  background: #f55800;
+  margin-bottom: 100px;
+}
+
+.section_about .resume span {
+  font-family: 'Inter', sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.section_about .resume:hover {
+  padding: 12px;
+  width: 9%;
+  background: #f55800;
+}
+
+.section_about .svg_img_snd {
+  background-image: url(./img/Frame.svg);
+  background-repeat: no-repeat, repeat;
+  background-position: right;
+  background-size: 70%;
+}
+
+.section_about .division_line {
+  border: 1px solid rgba(250, 247, 247, 0.7);
+  width: 90%;
+}
+
+.section_tools {
+  background-color: #1c1a19;
+  height: 100%;
+  padding-top: 100px;
+}
+
+.section_tools a {
+  text-decoration: none;
+  margin: 10px 0;
+  color: #fff;
+}
+
+.section_form {
+  background-color: #fff;
+  height: 100%;
+  margin-bottom: 50px;
+}
+
+.flex_form {
+  padding: 100px 0;
+}
+
+.flex_form h3 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #262626;
+}
+
+.flex_form .formstyle label {
+  display: none;
+}
+
+.flex_form .formstyle input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.flex_form .formstyle textarea {
+  width: 100%;
+  border: none;
+  margin-top: 30px;
+  background-color: #fbf8f7;
+}
+
+#first_name {
+  width: 45%;
+}
+
+#last_name {
+  width: 45%;
+  float: right;
+}
+
+.formstyle .button_submit {
+  padding: 12px;
+  width: 30%;
+  background: #f55800;
+  border: none;
+  margin-top: 25px;
+}
+
+.formstyle .button_submit span {
+  font-family: 'Inter', sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.footer_class {
+  height: 100%;
+  border-top: 2px solid #dfe1e6;
+}
+
+.footer_class .images > img {
+  background-color: #fff;
+}
+
+@media (min-width: 992px) {
+  .section_about .svg_img_snd {
+    background-image: url(./img/Frame.svg);
+    background-repeat: no-repeat, repeat;
+    background-position: right;
+    background-size: 40%;
+  }
+}
+
+@media (min-width: 576px) {
+  /* .section_tools {
+    display: flex;
+    flex-direction: row !important;
+  } */
+}
+
+@media (max-width: 576px) {
+  .section_head .haed_article {
+    width: 200px;
+    font-size: 35px;
+    margin-top: 10px;
+  }
+
+  .section_head .haed_article h1 {
+    width: 200px;
+    font-size: 35px;
+    margin-top: 10px;
+  }
+
+  .section_head .haed_article h2 {
+    width: 530px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .section_head .haed_article p {
+    width: 100%;
+    height: 143px;
+    font-size: 15px;
+  }
+
+  .section_head .svg_img {
+    background-image: url(./img/Illustration-header.svg);
+    background-repeat: no-repeat, repeat;
+    background-position: bottom right;
+  }
+
+  .first_col {
+    text-align: center;
+    width: 100%;
+  }
+
+  .section_form h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .section_about .svg_img_snd {
+    background-image: url(./img/Frame.svg);
+    background-repeat: no-repeat, repeat;
+    background-position: right bottom;
+    background-size: 100%;
+    background-position-x: 150px;
+  }
+
+  .section_about .about_me {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 550;
+    font-size: 60px;
+    color: #f55800;
+    margin-bottom: 15px;
+    margin-top: 100px;
+  }
+
+  .section_about .description {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f4f5f7;
+    margin-bottom: 40px;
+  }
+
+  .section_about .resume {
+    padding: 12px;
+    width: 50%;
+    background: #f55800;
+    margin-bottom: 100px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .section_head .haed_article h1 .one_title {
+    width: 100%;
+    font-size: 35px;
+  }
+
+  .section_head .haed_article h1 .two_title {
+    width: 100%;
+    font-size: 35px;
+  }
+}
